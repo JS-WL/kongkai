@@ -1,0 +1,1 @@
+<view><view data-event-opts="{{[['tap',[['handleGoback',['$event']]]]]}}" class="back" catchtap="__e"><text>返回</text></view></view>

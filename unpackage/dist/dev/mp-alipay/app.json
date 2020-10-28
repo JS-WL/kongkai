@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "component/test/test",
+    "pages/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "defaultTitle": "uni-app-test",
+    "pullRefresh": true,
+    "titleBarColor": "#F0AD4E",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "textColor": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "index"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "name": "news"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

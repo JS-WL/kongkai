@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加设备",
+  "usingComponents": {
+    "uni-collapse": "/component/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/component/uni-collapse-item/uni-collapse-item"
+  }
+}

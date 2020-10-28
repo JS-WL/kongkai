@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "设备数据分析",
+  "usingComponents": {
+    "h-mfilter-dropdown": "/component/HM-filterDropdown/HM-filterDropdown",
+    "histogram-chart": "/component/stan-ucharts/HistogramChart",
+    "arcbar-chart": "/component/stan-ucharts/ArcbarChart",
+    "line-chart": "/component/stan-ucharts/LineChart",
+    "uni-back": "/component/uni-back/uni-back"
+  }
+}

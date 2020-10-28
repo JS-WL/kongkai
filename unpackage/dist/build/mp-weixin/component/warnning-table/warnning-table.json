@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "报警",
+  "usingComponents": {
+    "wyb-table": "/component/wyb-table/wyb-table",
+    "wyb-modal": "/component/wyb-modal/wyb-modal",
+    "uni-pagination": "/component/uni-pagination/uni-pagination",
+    "uni-back": "/component/uni-back/uni-back"
+  }
+}

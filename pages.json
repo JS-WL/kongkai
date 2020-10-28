@@ -1,0 +1,116 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "配网" 
+			}
+		},
+		{
+			"path": "pages/devices/devices",
+			"style": {
+				"navigationBarTitleText": "添加设备" 
+			}
+		}
+	    ,
+		{
+			"path":"component/device-detail/device-detail",
+			"style":{
+				"navigationBarTitleText": "设备详情"
+			}
+		},
+		{
+			"path":"component/device-edit/device-edit",
+			"style":{
+				"navigationBarTitleText": "设备编辑"
+			}
+		}
+        ,{
+            "path" : "component/warnning-table/warnning-table",
+            "style" : {
+				"navigationBarTitleText": "报警"
+			}
+        }
+        ,{
+            "path" : "component/device-data/device-data",
+            "style" : {
+				"navigationBarTitleText": "设备数据分析"
+			}
+        }
+        ,{
+            "path" : "component/device-check/device-check",
+            "style" : {
+				"navigationBarTitleText": "漏电检测"
+			}
+        }
+        ,{
+            "path" : "pages/net-add/net-add",
+            "style" : {
+				"navigationBarTitleText": "绑定网关"
+			}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {
+				"navigationBarTitleText": "用户"
+			}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "用户登入"
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"navigationBarTitleText": "用户注册"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app-test",
+		"navigationBarBackgroundColor": "#F0AD4E", 
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh": true,
+		"backgroundTextStyle": "dark"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#1296db",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/imgs/wiff.png",
+			"selectedIconPath": "static/imgs/wiff_selected.png",
+			"text": "配网"
+		}, {
+			"pagePath": "pages/devices/devices",
+			"iconPath": "static/imgs/devices_list.png",
+			"selectedIconPath": "static/imgs/devices_list_selected.png",
+			"text": "设备列表"
+		}, {
+			"pagePath": "pages/net-add/net-add",
+			"iconPath": "static/imgs/net.png",
+			"selectedIconPath": "static/imgs/net_active.png",
+			"text": "绑定网关"
+		},{
+			"pagePath": "pages/user/user",
+			"iconPath": "static/imgs/user.png",
+			"selectedIconPath": "static/imgs/user_active.png",
+			"text": "用户"
+		}]
+		},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "详情页", //模式名称
+				"path": "pages/detail/detail", //启动页面，必选
+				"query": "id=80" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+	}

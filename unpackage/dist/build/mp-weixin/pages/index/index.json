@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "配网",
+  "usingComponents": {
+    "test": "/component/test/test"
+  }
+}

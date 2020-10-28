@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mx-date-picker": "/component/mx-datepicker/mx-datepicker"
+  }
+}

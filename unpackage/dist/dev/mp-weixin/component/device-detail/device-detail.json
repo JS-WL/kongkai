@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "设备详情",
+  "usingComponents": {
+    "uni-popup": "/component/uni-popup/uni-popup",
+    "uni-popup-message": "/component/uni-popup/uni-popup-message",
+    "uni-popup-dialog": "/component/uni-popup/uni-popup-dialog",
+    "uni-back": "/component/uni-back/uni-back"
+  }
+}

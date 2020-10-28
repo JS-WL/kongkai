@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "news-app",
+  "usingComponents": {
+    "test": "/component/test/test"
+  }
+}
